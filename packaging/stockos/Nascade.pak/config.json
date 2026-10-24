@@ -1,0 +1,8 @@
+{
+  "label": "Nascade",
+  "label.ch.lang": "Nascade",
+  "icon": "",
+  "icontop": "icon.png",
+  "launch": "launch.sh",
+  "description": "NAS 游戏库"
+}

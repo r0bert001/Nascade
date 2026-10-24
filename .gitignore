@@ -1,0 +1,34 @@
+# 构建产物
+build/
+dist/
+runtime/
+
+# 截图（docs/images 下的文档截图会提交）
+screenshots/*.ppm
+screenshots/*.png
+
+# 运行资源（由 scripts/fetch_assets.sh 下载）
+assets/fonts/*.ttc
+assets/fonts/*.ttf
+assets/fonts/*.otf
+packaging/stockos/Nascade.pak/assets/
+packaging/stockos/Nascade.pak/nascade
+packaging/stockos/Nascade.pak/lib/
+
+# 本地调试数据（由 scripts/make_devdata.py 生成，不入库）
+devdata/
+
+# 日志和数据库
+*.log
+*.db
+*.db-journal
+
+# 工具与系统文件
+tools/msys64/
+tools/msys2-dl/
+.DS_Store
+Thumbs.db
+
+# Python 缓存
+__pycache__/
+*.pyc

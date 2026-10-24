@@ -1,0 +1,31 @@
+{
+  "language": "zh",
+  "fontScale": 1.0,
+  "gridView": false,
+  "onboardingDone": false,
+  "smb": {
+    "name": "我的 NAS",
+    "host": "192.168.1.10",
+    "port": 445,
+    "share": "retro",
+    "root": "/",
+    "username": "nascade",
+    "password": "在这里填写密码",
+    "domain": "",
+    "savePassword": true
+  },
+  "scraper": {
+    "enabled": true,
+    "consent": true,
+    "provider": "libretro",
+    "devId": "",
+    "devPassword": "",
+    "softName": "Nascade",
+    "ssId": "",
+    "ssPassword": "",
+    "language": "zh",
+    "region": "cn",
+    "baseUrl": "https://thumbnails.libretro.com",
+    "autoScrape": false
+  }
+}
