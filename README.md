@@ -99,6 +99,12 @@ export NASCADE_REMOTE_DIR=GBA
 
 ### M0 自测命令
 
+先生成本地模拟数据：
+
+```sh
+python scripts/make_devdata.py
+```
+
 ```sh
 # 本地模拟 NAS 的远程浏览 + 下载 + 续传
 export NASCADE_SD_ROOT="$PWD/devdata"
